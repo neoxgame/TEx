@@ -13,9 +13,8 @@
 
   },
   "devDependencies": {
-     "electron": "^23.0.0",
-        "electron-builder": "^20.38.2",
-    "afterPack": "electron-builder-sandbox-fix"
+     "electron": "^4.0.0",
+        "electron-builder": "^20.38.2"
   },
   "build": {
     "appId": "com.ipenywis.app",
