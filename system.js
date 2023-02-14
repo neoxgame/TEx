@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const { ipcMain, app, dialog, remote, BrowserWindow, session } = require('electron')
+const electron = require('electron')
 const path = require('path')
 const url = require('url');
 
