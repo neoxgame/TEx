@@ -8,6 +8,7 @@ let win
 app.whenReady().then(() => {
   const win = new BrowserWindow({
     webPreferences: {
+      nodeIntegration: true, // default in Electron >= 5
       preload: path.join(__dirname, 'preload.js'),
       sandbox: true
     }
