@@ -13,11 +13,14 @@
 
   },
   "devDependencies": {
-        "electron": "^3.1.13",
-        "electron-builder": "^20.38.2",
-        "electron-packager": "^13.0.0",
-        "electron-toolkit": "^1.0.24",
-        "electron-winstaller": "^2.7.0"
+    "electron-builder": "^21.2.0",
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "electron": "^5.0.7"
   },
   "build": {
     "appId": "com.ipenywis.app",
@@ -26,36 +29,6 @@
     "directories": {
       "output": "build"
     }
-  },
-   "win": {
-            "target": [
-                {
-                    "target": "nsis",
-                    "arch": [
-                        "ia32"
-                    ]
-                }
-            ]
-        },
-        "mac": {
-            "target": [
-                {
-                    "target": "dmg",
-                    "arch": [
-                        "x64"
-                    ]
-                }
-            ],
-            "category": "public.app-category.business"
-        },
-        "linux": {
-            "target": [
-                {
-                    "target": "debian package (deb)",
-                    "arch": [
-                        "ia32"
-                    ]
-                }
-            ]
-        } 
+  }
+
 }
