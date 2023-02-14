@@ -2,7 +2,7 @@
   "name": "facebook-desktop",
   "version": "1.0.0",
   "description": "Facebook App For Windows Desktop",
-  "main": "index.js",
+  "main": "system.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
