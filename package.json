@@ -13,9 +13,7 @@
 
   },
   "devDependencies": {
-     "electron": "^5.5.0",
-        "electron-builder": "^20.38.2"
-  },
+   },
   "build": {
     "appId": "com.ipenywis.app",
     "productName": "Facebook Desktop",
