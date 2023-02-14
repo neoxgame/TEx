@@ -5,9 +5,11 @@ const url = require('url');
 const { app, BrowserWindow } = electron
 let win
 
-app.enableSandbox()
 app.whenReady().then(() => {
-  // any sandbox:false calls are overridden since `app.enableSandbox()` was called.
-  const win = new BrowserWindow()
+  const win = new BrowserWindow({
+    webPreferences: {
+      sandbox: true
+    }
+  })
   win.loadURL('https://google.com')
 })
